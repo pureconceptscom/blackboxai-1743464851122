@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - LOOKA Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .team-card:hover img {
+      transform: scale(1.05);
+    }
+    .timeline-item:not(:last-child):after {
+      content: "";
+      position: absolute;
+      left: 1.5rem;
+      top: 3.5rem;
+      height: calc(100% - 3.5rem);
+      width: 2px;
+      background-color: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <!--#include virtual="header.html" -->
+
+  <!-- Hero Section -->
+  <section class="relative bg-indigo-600 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Story</h1>
+      <p class="text-xl max-w-2xl mx-auto">Empowering businesses with beautiful, professional branding since 2015</p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Why Choose Us?</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          At LOOKA, we believe every business deserves a professional brand identity, regardless of size or budget. 
+          Our AI-powered platform combines cutting-edge technology with design expertise to deliver stunning logos 
+          in minutes, not weeks.
+        </p>
+        <div class="grid md:grid-cols-3 gap-8 mt-12">
+          <div>
+            <div class="text-indigo-600 text-4xl mb-4">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Fast</h3>
+            <p class="text-gray-600">Get logo concepts in minutes, not weeks</p>
+          </div>
+          <div>
+            <div class="text-indigo-600 text-4xl mb-4">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Affordable</h3>
+            <p class="text-gray-600">Professional quality at a fraction of the cost</p>
+          </div>
+          <div>
+            <div class="text-indigo-600 text-4xl mb-4">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Quality</h3>
+            <p class="text-gray-600">Designs crafted by industry professionals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        <div class="team-card bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Sarah Johnson" class="w-full h-full object-cover transition-transform duration-300">
+          </div>
+          <h3 class="text-xl font-semibold">Sarah Johnson</h3>
+          <p class="text-indigo-600 mb-2">CEO & Founder</p>
+          <p class="text-gray-600 text-sm">Former design director at a Fortune 500 company</p>
+          <div class="flex justify-center space-x-3 mt-4">
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-card bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+            <img src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg" alt="Michael Chen" class="w-full h-full object-cover transition-transform duration-300">
+          </div>
+          <h3 class="text-xl font-semibold">Michael Chen</h3>
+          <p class="text-indigo-600 mb-2">CTO</p>
+          <p class="text-gray-600 text-sm">AI and machine learning specialist</p>
+          <div class="flex justify-center space-x-3 mt-4">
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="team-card bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+            <img src="https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg" alt="Emma Rodriguez" class="w-full h-full object-cover transition-transform duration-300">
+          </div>
+          <h3 class="text-xl font-semibold">Emma Rodriguez</h3>
+          <p class="text-indigo-600 mb-2">Creative Director</p>
+          <p class="text-gray-600 text-sm">Branding expert with 10+ years experience</p>
+          <div class="flex justify-center space-x-3 mt-4">
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-behance"></i></a>
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        <div class="team-card bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="David Kim" class="w-full h-full object-cover transition-transform duration-300">
+          </div>
+          <h3 class="text-xl font-semibold">David Kim</h3>
+          <p class="text-indigo-600 mb-2">Head of Product</p>
+          <p class="text-gray-600 text-sm">User experience and product design</p>
+          <div class="flex justify-center space-x-3 mt-4">
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-medium"></i></a>
+            <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Journey</h2>
+      <div class="max-w-3xl mx-auto">
+        <div class="relative timeline-item pl-16 pb-12">
+          <div class="absolute left-0 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 font-bold">1</div>
+          <h3 class="text-xl font-semibold mb-2">Founded in 2015</h3>
+          <p class="text-gray-600">Started as a small design studio in San Francisco</p>
+        </div>
+        <div class="relative timeline-item pl-16 pb-12">
+          <div class="absolute left-0 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 font-bold">2</div>
+          <h3 class="text-xl font-semibold mb-2">First AI Prototype (2017)</h3>
+          <p class="text-gray-600">Developed initial logo generation algorithm</p>
+        </div>
+        <div class="relative timeline-item pl-16 pb-12">
+          <div class="absolute left-0 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 font-bold">3</div>
+          <h3 class="text-xl font-semibold mb-2">Platform Launch (2018)</h3>
+          <p class="text-gray-600">Public beta release with 1,000+ users</p>
+        </div>
+        <div class="relative timeline-item pl-16">
+          <div class="absolute left-0 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 font-bold">4</div>
+          <h3 class="text-xl font-semibold mb-2">Today</h3>
+          <p class="text-gray-600">Serving 50,000+ businesses worldwide</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-indigo-600 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Ready to Create Your Brand?</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">Join thousands of businesses who trust LOOKA for their branding needs.</p>
+      <a href="design.html" class="bg-white text-indigo-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors inline-block">
+        Start Designing <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!--#include virtual="footer.html" -->
+</body>
+</html>
