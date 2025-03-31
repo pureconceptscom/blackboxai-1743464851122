@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOOKA Clone - AI Logo Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(79, 70, 229, 0.8) 0%, rgba(99, 102, 241, 0.8) 100%);
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <!--#include virtual="header.html" -->
+
+  <!-- Hero Section -->
+  <section class="relative bg-[url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg')] bg-cover bg-center">
+    <div class="hero-gradient py-32 px-4">
+      <div class="container mx-auto text-center text-white">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Create Your Perfect Logo in Minutes</h1>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">AI-powered logo design for businesses of all sizes</p>
+        <a href="design.html" class="bg-white text-indigo-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors inline-block">
+          Start Designing <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="feature-card bg-white p-8 rounded-lg shadow-md transition-all duration-300">
+          <div class="text-indigo-600 text-4xl mb-4">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">AI-Powered Design</h3>
+          <p class="text-gray-600">Our AI generates unique logo concepts based on your preferences and industry.</p>
+        </div>
+        <div class="feature-card bg-white p-8 rounded-lg shadow-md transition-all duration-300">
+          <div class="text-indigo-600 text-4xl mb-4">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Complete Brand Kit</h3>
+          <p class="text-gray-600">Get matching business cards, social media assets, and brand guidelines.</p>
+        </div>
+        <div class="feature-card bg-white p-8 rounded-lg shadow-md transition-all duration-300">
+          <div class="text-indigo-600 text-4xl mb-4">
+            <i class="fas fa-edit"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Easy Customization</h3>
+          <p class="text-gray-600">Edit colors, fonts, and layouts with our intuitive editor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Trusted by Thousands</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <div class="flex items-center mb-4">
+            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Sarah Johnson" class="w-12 h-12 rounded-full object-cover mr-4">
+            <div>
+              <h4 class="font-semibold">Sarah Johnson</h4>
+              <p class="text-gray-500 text-sm">CEO, TechStart</p>
+            </div>
+          </div>
+          <p class="text-gray-700">"The logo design process was incredibly smooth and the results exceeded my expectations. Highly recommended!"</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <div class="flex items-center mb-4">
+            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="Michael Chen" class="w-12 h-12 rounded-full object-cover mr-4">
+            <div>
+              <h4 class="font-semibold">Michael Chen</h4>
+              <p class="text-gray-500 text-sm">Founder, UrbanEats</p>
+            </div>
+          </div>
+          <p class="text-gray-700">"Our new logo perfectly captures our brand identity. The AI suggestions were surprisingly on-point."</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <div class="flex items-center mb-4">
+            <img src="https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg" alt="Emma Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4">
+            <div>
+              <h4 class="font-semibold">Emma Rodriguez</h4>
+              <p class="text-gray-500 text-sm">Creative Director, StyleCo</p>
+            </div>
+          </div>
+          <p class="text-gray-700">"As a designer, I was skeptical about AI tools, but LOOKA delivered professional results in minutes."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-indigo-600 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Ready to Create Your Brand Identity?</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">Join thousands of businesses who trust LOOKA for their logo design needs.</p>
+      <a href="design.html" class="bg-white text-indigo-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors inline-block">
+        Get Started Now <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!--#include virtual="footer.html" -->
+
+  <script>
+    // Simple script for testimonial carousel (to be enhanced later)
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll('.testimonial');
+    
+    function showTestimonial(index) {
+      testimonials.forEach((testimonial, i) => {
+        testimonial.style.display = i === index ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
